@@ -29,6 +29,6 @@ def convert_flac_to_mp3(input_folder, output_folder, bitrate="128k", num_threads
 
 
 if __name__ == "__main__":
-    input_folder = r".\your_input_file_here"  # 替换为包含FLAC文件的文件夹路径
-    output_folder = r".\your_output_file_here"  # 替换为保存MP3文件的文件夹路径
+    input_folder = r".\your_input_file_here"  
+    output_folder = r".\your_output_file_here"  
     convert_flac_to_mp3(input_folder, output_folder, num_threads=8)
